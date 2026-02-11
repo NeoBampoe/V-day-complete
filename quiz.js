@@ -50,7 +50,7 @@ const questions = [
     correct: 1
   },
   {
-    question: "What did you get on our second coffee date ?",
+    question: "What did you get on our first coffee date ?",
     answers: ["Just coke", "Pepermint crisp tart", "Ice cream", "Ice coffee and muffin"],
     correct: 0
   },
@@ -116,6 +116,7 @@ function checkAnswer(selected) {
 }
 
 loadQuestion();
+
 
 
 
