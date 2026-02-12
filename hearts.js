@@ -110,7 +110,7 @@ function createHeart() {
     }, 300);
 
     score++;
-    fallSpeed += 1;
+    fallSpeed += 0.5 ;
     spawnRate = Math.max(200, spawnRate - 10);
 
     scoreText.textContent = `Score: ${score} | Lives: ${lives}`;
@@ -151,6 +151,7 @@ function loseLife() {
 
 // Start game
 spawnInterval = setInterval(createHeart, spawnRate);
+
 
 
 
